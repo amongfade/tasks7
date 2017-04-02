@@ -1,0 +1,161 @@
+ <style> 
+    html{
+      font-size: 67.5%;
+     
+    }
+    body{
+       max-width: 640px;
+       min-width: 320px;
+       margin:0 auto;
+    }
+    *{
+      margin:0;
+      padding:0;
+    }
+    .head{
+    
+      width: 100%;
+      padding:20px 0 20px 7.2%;
+      margin-bottom: 4.4%;
+      background-color: #29bde0;
+    }
+    .rectangle{
+      padding:  5% 0;
+      width: 89%;
+      border:1px solid #999999;
+      margin: 0 5.5% 4.2% 5.5%;
+      font-size: 34px;
+      color: #999999;
+      text-align: center;
+      line-height: 51px;
+      background-image: url(image1/arrow.jpg)
+
+    }
+   .icon{
+    float: right;
+    margin-right:10px;
+   }
+    .icon1{
+     float: right;
+
+    }
+    .rect1{
+      margin:0 5.5% 4.2% 5.5%;
+      font-size: 37px;
+      color: #fcc87b;
+
+    }
+    .container{
+      position: relative;
+      padding: 0;
+      width: 89%;
+      
+      border:1px solid #999999;
+      margin:0 5.5% 4.2% 5.5%;
+    }
+    .first{
+      height: 90px;
+      border-bottom: 1px solid #fcc87b;
+      line-height: 90px;
+      text-align: center;
+      color: #fcc87b;
+      font-size: 37px;
+      margin: 0 0 30px 0;
+    }
+    .second{
+
+      font-size: 32px;
+      background: #69d1e9;
+      padding: 6.25% 0;
+      text-align: center;
+      
+      border:1px solid #69d1e9;
+      color: #fff;
+      margin: 0 8.6% 30px 8.6%;
+      text-decoration: none;
+    }
+    .text{
+      font-size: 24px;
+      color: #787878;
+      text-align: center;
+    }
+    .shape{
+      text-align: center;
+    }
+    .add{
+    display: inline-block;
+    position: absolute;
+    top:47%;
+    right: 1%;
+  
+   
+    }
+    a:hover{
+      text-decoration: none;
+      color:#e7e7e7;
+    }
+    @media (max-width: 550px) {
+    .rectangle{
+      font-size: 26px;
+      }
+      .first{
+        font-size: 29.6px;
+      }
+      .icon{
+          transform: scale(0.9);
+      }
+      .second{
+         font-size: 24.4px;
+      }
+      .text{
+        font-size: 19.22px;
+      }
+    }
+    @media screen and (min-width:450px) and (max-width:550px){
+      .rectangle{
+         font-size: 22px;
+      }
+      .first{
+        font-size: 26px;
+      }
+      .icon{
+          transform:scale(0.7);
+
+      }
+      .second{
+         font-size: 21px;
+      }
+      .text{
+        font-size: 15px;
+      }
+    }
+    @media screen  and (max-width:450px){
+      .rectangle{
+         font-size: 18px;
+      }
+      .first{
+        font-size: 22px;
+      }
+      /*.icon{
+         
+           display: inline-block;
+           transform:translate(100%,10%) ;
+           font-size: 36px;
+           text-decoration: none;
+           color: #e7e7e7;
+                 }*/
+                 .icon{
+                  transform: scale(0.6);
+                 }
+                 .second{
+         font-size: 18px;
+      }
+      .text{
+        font-size: 14.4px;
+      }
+      .add{
+        transform:scale(0.6);
+        right:0.5%;
+      }
+
+    </style>s
